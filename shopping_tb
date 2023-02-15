@@ -57,7 +57,7 @@ def buy(times):
                 except:
                     print(f"再次尝试提交订单")
             time.sleep(0.01)
-
+# https://zhuanlan.zhihu.com/p/269107661
 
 if __name__ == '__main__':
     browser = webdriver.Chrome()
